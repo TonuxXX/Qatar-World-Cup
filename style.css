@@ -1,0 +1,676 @@
+/*Estilo del Body*/
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: column;
+}
+/*Estilo del Body*/
+
+
+/*Estilo del Logo Navbar*/
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .logo img{
+    padding-top: 10px;
+    padding-left: 120px;
+    width: 200px;
+    height: 80px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .logo img {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 200px;
+    height: 80px;
+  }
+}
+/*Estilo del Logo Navbar*/
+
+
+/*Estilo Navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #390046;
+}
+
+.navbar-toggle {
+    padding-right: 50px;
+  display: none;
+  cursor: pointer;
+} 
+
+.navbar-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    padding-right: 20px;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .nav-menu.show {
+      display: flex;
+      flex-direction: column;
+    }
+}
+  
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-menu a:hover {
+    color: #c5f100;
+}
+/*Estilo Navbar*/
+
+
+/*Estilo Introducción*/
+.container-fondo-img {
+  background-image: url("img/fondo/nav/otros/todos.png");
+  background-color: #540166;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container-text-aclaración {
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.container-text-aclaración h1 {
+    font-size: 50px;
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-text-aclaración{
+    padding-left: 120px;
+    padding-right: 50%;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-text-aclaración {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-text-aclaración p {
+    padding-right: 20px;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .boton-div{
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-bottom: 200px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .boton-div {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    transition: transform 0.5s;
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    background-color: #42e860;
+    transition: background-color 0.8s ease;
+}
+
+.boton-div img {
+    display: inline-flex;
+    width: 18px;
+    justify-content: center;
+}
+/*Estilo Introducción*/
+
+
+/*Estilo Sección 1*/
+.container-section1 {
+  background-color: #680080;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section1 h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section1{
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section1{
+    display: block;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section1 img{
+    padding-left: 120px;
+    width: 500px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section1 img{
+    padding-left: 20px;
+    width: 500px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section1 p{
+    margin-left: 10px;
+    padding-right: 120px;
+    font-size: 18px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section1 p{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+/*Estilo Sección 1*/
+
+
+/*Estilo Sección 2*/
+.container-section2 {
+  background-color: #540166;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section2 h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section2{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section2{
+    display: block;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section2 p{
+    padding-left: 320px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    width: 45%;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section2 p{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section2 img{
+    margin-left: 100px;
+    width: 480px;
+    padding-right: 320px;
+    padding-bottom: 40px;
+    border-radius: ;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section2 img{
+    border-radius: 60px;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+/*Estilo Sección 2*/
+
+
+/*Estilo Sección 3*/
+.container-section3 {
+  background-color: #680080;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section3 {
+  text-align: center;
+}
+
+.container-title-section3 h2 {
+  font-size: 35px;
+}
+
+.container-img-equipos-paises {
+  display: flex;
+  width: 100%;
+}
+
+.container-img-equipos-paises img{
+  width: 100%;
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 1080px) {
+  .container-img-equipos-paises img{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas medias */
+@media screen and (min-width: 820px) {
+  .container-img-equipos-paises img{
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-img-equipos-paises img{
+    padding-bottom: 40px;
+  }
+}
+/*Estilo Sección 3*/
+
+
+
+
+/*Estilo Cards Campeones*/
+.container-section5 {
+  background-color: #680080;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section5 {
+  text-align: center;
+}
+
+.container-title-section5 h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.card-border-section5 {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.card-section5 {
+  display: inline-flex;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  transition: transform 0.3s;
+  border-radius: 25px;
+  align-items: center;
+  padding: 2px;
+}
+
+.card-section5:hover {
+  transform: scale(1.05);
+}
+
+.card-section5 img {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.content-section5 {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+/*Estilo Cards Campeones*/
+
+
+/*Estilo Campeon*/
+.container-section6 {
+  background-color: #540166;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section6 h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section6{
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section6{
+    display: block;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section6 img{
+    padding-left: 120px;
+    width: 500px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section6 img{
+    padding-left: 90px;
+    width: 500px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas de computadora */
+@media screen and (min-width: 768px) {
+  .container-textyimg-section6 p{
+    margin-left: 10px;
+    padding-right: 120px;
+    font-size: 18px;
+  }
+}
+
+/* Estilos para pantallas de teléfono */
+@media screen and (max-width: 767px) {
+  .container-textyimg-section6 p{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+/*Estilo Campeon*/
+
+
+/*Estilo Cards Goleadores*/
+.container-section4 {
+  background-color: #680080;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section4 {
+  text-align: center;
+}
+
+.container-title-section4 h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.card-border {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.card {
+  display: inline-flex;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  transition: transform 0.3s;
+  border-radius: 25px;
+  align-items: center;
+  padding: 2px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+/*Estilo Cards Goleadores*/
+
+
+/*Estilo Cards Jugadores Estrella*/
+.container-section7 {
+  background-color: #540166;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-title-section7 {
+  text-align: center;
+}
+
+.container-title-section7 h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.card-border-section7 {
+    display: inline-flex;
+    padding-top: 20px;
+    padding: 50px;
+}
+
+.card-section7 {
+  display: inline-flex;
+  width: 600px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  transition: transform 0.3s;
+  border-radius: 25px;
+  align-items: center;
+  padding: 2px;
+  white-space: 50px;
+}
+
+.card-section7:hover {
+  transform: scale(1.05);
+}
+
+.card-section7 img {
+  flex: 0 0 auto;
+  width: 270px;
+  height: 400px;
+  border-radius: 25px;
+}
+
+.content-section7 {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+/*Estilo Cards Jugadores Estrella*/
+
+
+/*Estilo Form*/
+.container-sectionform {
+  font-family: Arial, sans-serif;
+  background-color: #680080;
+  margin: 0;
+  padding: 20px;
+}
+
+.container-title-sectionform {
+  text-align: center;
+}
+
+.container-title-sectionform h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.container-form-sectionform {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*Estilo Form*/
+
+
+/*Estilo Footer*/
+.container-footer {
+  padding-bottom: 0px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #390046;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Estilo Footer*/
